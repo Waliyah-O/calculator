@@ -23,26 +23,26 @@
 //       squareRoot = document.getElementById("squareRoot"),
 //       allOperators = document.querySelectorAll("");
 
-var newValue ="";
+// var newValue ="";
 
-function displayValue(value) {
-    newValue += value;
-    document.getElementById("screen").value = newValue;
-}
+// function displayValue(value) {
+//     newValue += value;
+//     document.getElementById("screen").value = newValue;
+// }
 
-function ISequalTo() {
-    let screen = eval(newValue);
-    document.getElementById("screen").value = screen;
-    //newValue = screen.toString();
-}
+// function ISequalTo() {
+//     let screen = eval(newValue);
+//     document.getElementById("screen").value = screen;
+//     //newValue = screen.toString();
+// }
 
-function clearAll() {
-    newValue ="";
-    document.getElementById("screen").value = "";
-} 
+// function clearAll() {
+//     newValue ="";
+//     document.getElementById("screen").value = "";
+// } 
 
-function clearOne() {
-    newValue ="";
-    document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1);
-}
+// function clearOne() {
+//     newValue ="";
+//     document.getElementById("screen").value = document.getElementById("screen").value.slice(0, -1);
+// }
 
